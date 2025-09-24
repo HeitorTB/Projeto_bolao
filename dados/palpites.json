@@ -1,1 +1,22 @@
-{}
+{
+  "heitor": {
+    "1": {
+      "placar1": 1,
+      "placar2": 0
+    },
+    "2": {
+      "placar1": 2,
+      "placar2": 0
+    }
+  },
+  "joao": {
+    "2": {
+      "placar1": 2,
+      "placar2": 0
+    },
+    "1": {
+      "placar1": 4,
+      "placar2": 0
+    }
+  }
+}
