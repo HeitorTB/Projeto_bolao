@@ -18,5 +18,15 @@
       "placar1": 4,
       "placar2": 0
     }
+  },
+  "lucas": {
+    "1": {
+      "placar1": 10,
+      "placar2": 0
+    },
+    "2": {
+      "placar1": 5,
+      "placar2": 0
+    }
   }
 }
