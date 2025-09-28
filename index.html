@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bolão da Copa</title>
+</head>
+<body>
+    <h1>Jogos da Copa</h1>
+    <form method="POST">
+        <label>Seu nome:</label><br>
+        <input type="text" name="nome" required><br><br>
+
+        {% for jogo in jogos %}
+            <label>{{ jogo.time1 }} x {{ jogo.time2 }}</label><br>
+            <input type="text" name="jogo_{{ loop.index0 }}" placeholder="Ex: 2x1" required><br><br>
+        {% endfor %}
+
+        <button type="submit">Enviar Palpites</button>
+    </form>
+</body>
+</html>
